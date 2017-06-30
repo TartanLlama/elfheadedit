@@ -90,6 +90,6 @@ int main(int argc, char** argv) {
         edit_header<32>(in_file, out_file, machine, flags);
     }
     else if (ident[4] == ELFCLASS64) {
-        edit_header<32>(in_file, out_file, machine, flags);
+        edit_header<64>(in_file, out_file, machine, flags);
     }
 }
